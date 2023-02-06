@@ -71,6 +71,7 @@ ul {
     /* border: 1px solid black; */
     height: 200px;
     display: flex;
+    
  }
 
  .primo-contenuto {
@@ -121,4 +122,24 @@ ul {
     /* debug */
     height: 90%;
 
+ }
+
+ .fascia-finale {
+    display: flex;
+    background-color: #d3d3d3;
+    height: 400px;
+    justify-content: center;
+
+
+ }
+
+ .quadrato-verde {
+    background-color: green;
+    border: 2px dotted black;
+    align-self: center;
+    
+    width: 40%;
+    
+    /* debug */
+    height: 80%;
  }
