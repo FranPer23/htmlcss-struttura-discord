@@ -63,11 +63,6 @@ ul {
  }
 
  /* MAIN */
-
- main {
-    width: 100%;
-    margin: 0 auto;
- }
  
  .prima-fascia {
     background-color: #ffffff;
@@ -76,14 +71,13 @@ ul {
     /* border: 1px solid black; */
     height: 200px;
     display: flex;
-    justify-content: center;
  }
 
  .primo-contenuto {
     border: 2px dotted black;
     background-color: #1e90ff;
     align-self: center;
-    width: 40%;
+    flex-grow: 1;
 
     /* debug */
     height: 90%;
@@ -94,8 +88,37 @@ ul {
     border: 2px dotted black;
     background-color: #ffc0cb;
     align-self: center;
-    width: 40%;
+    flex-grow: 2;
 
     /* debug */
     height: 90%;
+ }
+
+ .seconda-fascia {
+    background-color: #d3d3d3;
+
+    /* debug */
+    height: 200px;
+    display: flex;
+ }
+
+ .terzo-contenuto {
+    border: 2px dotted black;
+    background-color: #ffc0cb;
+    align-self: center;
+    flex-grow: 1;
+
+    /* debug */
+    height: 90%;
+ }
+
+ .quarto-contenuto {
+    border: 2px dotted black;
+    background-color: #1e90ff;
+    align-self: center;
+    flex-grow: 2;
+
+    /* debug */
+    height: 90%;
+
  }
