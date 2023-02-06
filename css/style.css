@@ -61,3 +61,41 @@ ul {
     background-color: #ee82ee;
     height: 90%
  }
+
+ /* MAIN */
+
+ main {
+    width: 100%;
+    margin: 0 auto;
+ }
+ 
+ .prima-fascia {
+    background-color: #ffffff;
+
+    /* debug */
+    /* border: 1px solid black; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .primo-contenuto {
+    border: 2px dotted black;
+    background-color: #1e90ff;
+    align-self: center;
+    width: 40%;
+
+    /* debug */
+    height: 90%;
+
+ }
+
+ .secondo-contenuto {
+    border: 2px dotted black;
+    background-color: #ffc0cb;
+    align-self: center;
+    width: 40%;
+
+    /* debug */
+    height: 90%;
+ }
