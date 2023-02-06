@@ -131,7 +131,7 @@ ul {
     justify-content: center;
 
 
- }
+  }
 
  .quadrato-verde {
     background-color: green;
@@ -143,3 +143,34 @@ ul {
     /* debug */
     height: 80%;
  }
+
+ .footer-principale {
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+
+    /* debug */
+    height: 300px;
+ }
+
+ .footer-secondario {
+    background-color: #23272a;
+    
+    /* debug */
+    height: 100px;
+ }
+
+ hr {
+    color: white;
+ }
+
+.container-finale {
+    background-color: #7fffd4;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px black dotted;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;  
+}
