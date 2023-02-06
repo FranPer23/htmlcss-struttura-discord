@@ -8,23 +8,56 @@
 
 /* HEADER */
 header {
-    height: 70px;
-    padding: 0 10px;
+    height: 80px;
+    padding: 20px;
     /* DEBUG */
-    background-color: lightskyblue;
+    background-color:#add8e6;
 }
 
 .small-container {
-    background-color: yellow;
-    border: 1px black dotted;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #daa520;
+    border: 2px black dotted;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
+    
 }
 
 .header-nav ul {
     display: flex;
     gap: 10px;
     list-style-type: none;
+    border: 2px dotted black;
 }
 
+ul {
+    text-decoration: none;
+}
+ .logo {
+    border: 2px dotted black;
+ }
+
+ .actions {
+    border: 2px dotted black;
+ }
+
+ .header-inferiore {
+    padding-top: 20px;
+
+    /* debug */
+    height: 200px;
+    background-color: blue;
+    
+ }
+
+ .pink-container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px dotted black;
+
+    /* debug */
+    background-color: #ee82ee;
+    height: 90%
+ }
